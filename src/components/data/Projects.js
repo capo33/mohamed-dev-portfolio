@@ -29,7 +29,7 @@ export const portfolio = [
     caption: "A short description",
     image: "image/country-api.png",
     title: "Country API",
-    description: "React - Redux - Typescript",
+    description: "React - Redux - TypeScript",
     links: [
       {
         id: uuidv4(),
@@ -109,7 +109,7 @@ export const portfolio = [
     caption: "A short description",
     image: "image/pokemon2.png",
     title: "Pokemon Evolution",
-    description: "React-hooks Typescript",
+    description: "React-hooks - TypeScript",
     links: [
       {
         id: uuidv4(),
@@ -211,21 +211,41 @@ export const portfolio = [
     caption: " A short description",
     image: "image/keeper.png",
     title: "Note Keeper",
-    description: "React-hooks",
+    description: "React-hooks - TypeScript",
     links: [
       {
         id: uuidv4(),
-        link: "https://capo33.github.io/note-keeper/",
+        link: "https://note-keeper-ts.netlify.app/",
         icon: <BiGlobe />,
       },
       {
         id: uuidv4(),
-        link: "https://github.com/capo33/note-keeper.git",
+        link: "https://github.com/capo33/Note-keeper-ts",
         icon: <FaGithub />,
       },
     ],
   },
 
+  {
+    id: uuidv4(),
+    tag: "Front-end",
+    caption: " A short description",
+    image: "image/search-user.png",
+    title: "Search Users",
+    description: "Vite - React-hooks - TypeScript",
+    links: [
+      {
+        id: uuidv4(),
+        link: "https://search-user-api.netlify.app/",
+        icon: <BiGlobe />,
+      },
+      {
+        id: uuidv4(),
+        link: "https://github.com/capo33/search-feature",
+        icon: <FaGithub />,
+      },
+    ],
+  },
   {
     id: uuidv4(),
     tag: "Front-end",
@@ -252,7 +272,7 @@ export const portfolio = [
     caption: " A short description",
     image: "image/kahvila.png",
     title: "Caffee Counter",
-    description: "Angular - Typescript",
+    description: "Angular - TypeScript",
     links: [
       {
         id: uuidv4(),
