@@ -1,0 +1,33 @@
+export const homeObj = {
+  primary: false,
+  fColor: true,
+  lightBg: false,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Coder ",
+  headline: "Fulls-tack",
+  description:
+    "Full-stack / Mern-Stack developer. With 3 years of programming experience, I have acquired the necessary skills and knowledge to be a good coder. I am very passionate and dedicated to my work. I enjoy every step of the coding process. ",
+  buttonLabel: "Let's Talk",
+  imgStart: "start",
+  img: require("../../assets/images/undraw_percentages_re_a1ao.svg").default,
+  alt: "home",
+  start: "true",
+};
+export const homeTwo = {
+  primary: true,
+  fColor: false,
+  lightBg: true,
+  lightTopLine: true,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Hello!",
+  headline: "I'm Capo",
+  description: "",
+  buttonLabel: "Explore",
+  imgStart: "",
+  img: require("../../assets/images/179.svg").default,
+  alt: "home",
+  start: "true",
+};
